@@ -409,6 +409,7 @@ h6 {
   color: var(--red-one);
   position: relative;
   display: inline-block;
+  font-weight: 600;
 }
 .title-style-one .title span:before {
   content: "";
@@ -4548,12 +4549,12 @@ body .theme-btn-thirteen:hover {
   padding: 105px 0 115px;
 }
 .inside-hero-one .page-title {
-  font-size: 72px;
+  font-size: 80px;
   font-weight: 500;
 }
 .inside-hero-one p {
   font-size: 20px;
-  padding-top: 24px;
+  padding-top: 0px;
   margin-bottom: 0;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Inside Page Banner Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
@@ -4606,15 +4607,7 @@ body .theme-btn-thirteen:hover {
   position: relative;
   display: inline-block;
   color: var(--red-one);
-}
-.inside-hero-three .page-title span:before {
-  content: "";
-  width: 100%;
-  height: 4px;
-  position: absolute;
-  bottom: 5px;
-  left: 0;
-  background: var(--red-one);
+  font-weight: 600;
 }
 .inside-hero-three p {
   font-size: 24px;
