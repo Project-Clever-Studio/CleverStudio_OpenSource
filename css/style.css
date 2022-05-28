@@ -4071,7 +4071,6 @@ body .theme-btn-thirteen:hover {
 .vcamp-footer-two .newsletter p {
   font-size: 19px;
   color: var(--heading);
-  padding: 10px 0 24px;
 }
 .vcamp-footer-two .newsletter p span {
   text-decoration: underline;
@@ -4104,21 +4103,22 @@ body .theme-btn-thirteen:hover {
 }
 .vcamp-footer-two .newsletter form button {
   position: absolute;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "gorditamedium";
   top: 8px;
-  right: 8px;
   bottom: 8px;
-  width: 115px;
-  border-radius: 8px;
+  width: 100%;
+  border-radius: 1rem;
   background: var(--red-two);
   color: #fff;
   transition: all 0.3s ease-in-out;
+  height: 6.5rem;
 }
 .vcamp-footer-two .newsletter form button.dark-btn {
   background: var(--red-one);
 }
 .vcamp-footer-two .newsletter form button.dark-btn:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
   background: var(--red-two);
 }
 .vcamp-footer-two .newsletter .info {

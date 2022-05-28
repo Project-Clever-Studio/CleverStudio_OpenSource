@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+
 html {
-  font-size: 62.5%;
+  font-size: 62.5% !important;
 }
 
 body {
@@ -8,9 +9,9 @@ body {
   margin: 0;
   padding: 0;
   color: #101010;
-  font-size: 3rem;
   font-family: Inter, sans-serif;
   color: #2c3345;
+  overflow-x: hidden;
 }
 
 .form-div {
@@ -34,10 +35,9 @@ body {
   height: fit-content;
   padding: 2rem;
   margin-top: 13rem;
-  margin-bottom: 10rem;
 }
 
-.form-div .main-form .heading-t{
+.form-div .main-form .heading-t {
   margin-bottom: 3rem;
 }
 
@@ -61,7 +61,7 @@ body {
 
 .form-div .main-form form .form-item {
   margin-top: 3rem;
-  font-size: 2.3rem !important; 
+  font-size: 2.3rem !important;
 }
 
 .form-div .main-form form .form-item .input-box {
@@ -79,8 +79,8 @@ body {
 .form-div .main-form form .form-item .input-box #ifYes {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   margin-top: 3rem;
   margin-bottom: 0;
 }
@@ -120,7 +120,7 @@ body {
 }
 
 .form-div .main-form form .form-item .input-box .checkbox-container li label {
-  padding: .5rem 2rem;
+  padding: 0.5rem 3rem;
   cursor: none;
 }
 
@@ -141,7 +141,7 @@ body {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-.form-div .main-form form .form-item .input-box .checkbox-container li input[type="checkbox"]:checked + label::before {
+.form-div .main-form form .form-item .input-box .checkbox-container li input[type="checkbox"]:checked+label::before {
   content: "\f00c";
   -webkit-transition: -webkit-transform 0.3s ease-in-out;
   transition: -webkit-transform 0.3s ease-in-out;
@@ -149,7 +149,7 @@ body {
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
 }
 
-.form-div .main-form form .form-item .input-box .checkbox-container li input[type="checkbox"]:checked + label {
+.form-div .main-form form .form-item .input-box .checkbox-container li input[type="checkbox"]:checked+label {
   background-color: #303030;
   color: #fff;
   -webkit-transition: all 0.2s;
@@ -161,7 +161,7 @@ body {
   opacity: 0;
 }
 
-.form-div .main-form form .form-item .input-box .checkbox-container li input[type="checkbox"]:focus + label {
+.form-div .main-form form .form-item .input-box .checkbox-container li input[type="checkbox"]:focus+label {
   border: 2px solid rgba(139, 139, 139, 0.3);
 }
 
@@ -183,7 +183,7 @@ body {
 }
 
 .form-div .main-form form .form-item .input-box textarea {
-  height: 5rem;
+  height: 9rem;
   border-radius: 0.4rem;
   font-size: 1.6rem;
   font-weight: 500;
@@ -191,7 +191,9 @@ body {
   border: 1px solid #5151515e;
   font-family: "Inter", sans-serif;
   padding: 1rem;
+  padding-top: 1rem;
   resize: vertical;
+  padding-top: 0;
 }
 
 .form-div .main-form form .form-item .input-box select {
