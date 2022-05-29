@@ -4502,7 +4502,7 @@ body .theme-btn-thirteen:hover {
   text-decoration: underline;
 }
 .fancy-banner-three .inner-content {
-  padding: 140px 0;
+  padding: 100px 0 0 0;
 }
 .fancy-banner-three [class*="theme-btn-"] {
   width: 230px;
@@ -4585,7 +4585,7 @@ body .theme-btn-thirteen:hover {
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Inside Page Banner Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .inside-hero-three {
-  padding: 225px 0 150px;
+  padding: 200px 0 100px;
   position: relative;
   z-index: 1;
 }
