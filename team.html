@@ -32,6 +32,11 @@
 	<!-- custom cursor style sheet -->
 	<link rel="stylesheet" href="CustomCursor/cursor.css">
 
+	<link rel="stylesheet" href="css/PopUpBox.css">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+
 	<!-- Fix Internet Explorer ______________________________________-->
 	<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -178,50 +183,247 @@
 			</div>
 
 			<div class="mixitUp-container">
+
+				<!-- Card 1  -->
 				<div class="mix dev support">
 					<div class="team-block-two text-center">
-						<div class="img-meta"><a href="https://www.instagram.com/pow3r24k/" target="!blank"><img
-									src="images/team/kushalPhoto_CleverStudio.jpg" alt="" class="w-100"></a>
+						<div class="img-meta"><a data-tab="team1"><img src="images/team/kushalPhoto_CleverStudio.jpg"
+									class="w-100"></a>
 						</div>
 						<h4 class="name">Kushal Shah</h4>
 						<p>Creative Media Director</p>
 					</div>
-				</div> 
+					<div class="popup-wrap" id="team1">
+						<div class="overlay">
+							<div class="popup-box">
+								<div class="close-btn"></div>
+								<div class="left-image">
+									<div class="img-meta"><a><img src="images/team/kushalPhoto_CleverStudio.jpg"
+												class="w-100"></a>
+									</div>
+								</div>
+								<div class="right-content">
+									<h2>Kushal Shah</h2>
+									<p class="role">Creative Media Director</p>
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo in
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo Lorem
+										ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo commodi
+										obcaecati adipisci rem?</p>
+									<div class="social-icons">
+										<li><a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-github"></i></a>
+										</li>
+										<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+										</li>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Card 2  -->
 				<div class="mix dev">
 					<div class="team-block-two text-center">
-						<div class="img-meta"><img src="images/team/UnknowmUser.jpg" alt="" class="w-100"></div>
+						<div class="img-meta"><a data-tab="team2"><img src="images/team/UnknowmUser.jpg"
+									class="w-100"></a>
+						</div>
 						<h4 class="name">Aditya Singh</h4>
 						<p>Managing Director</p>
 					</div>
+
+					<div class="popup-wrap" id="team2">
+						<div class="overlay">
+							<div class="popup-box">
+								<div class="close-btn"></div>
+								<div class="left-image">
+									<div class="img-meta"><a><img src="images/team/UnknowmUser.jpg" class="w-100"></a>
+									</div>
+								</div>
+								<div class="right-content">
+									<h2>Aditya Singh</h2>
+									<p class="role">Managing Director</p>
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo in
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo Lorem
+										ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo commodi
+										obcaecati adipisci rem?</p>
+									<div class="social-icons">
+										<li><a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-github"></i></a>
+										</li>
+										<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+										</li>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<!-- Card 3  -->
 				<div class="mix dev">
 					<div class="team-block-two text-center">
-						<div class="img-meta"><img src="images/team/UnknowmUser.jpg" alt="" class="w-100"></div>
+						<div class="img-meta"><a data-tab="team3"><img src="images/team/UnknowmUser.jpg"
+									class="w-100"></a>
+						</div>
 						<h4 class="name">Ritesh Maurya</h4>
 						<p>Account Director</p>
 					</div>
+					<div class="popup-wrap" id="team3">
+						<div class="overlay">
+							<div class="popup-box">
+								<div class="close-btn"></div>
+								<div class="left-image">
+									<div class="img-meta"><a target="!blank"><img src="images/team/UnknowmUser.jpg"
+												class="w-100"></a>
+									</div>
+								</div>
+								<div class="right-content">
+									<h2>Ritesh Maurya</h2>
+									<p class="role">Account Director</p>
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo in
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo Lorem
+										ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo commodi
+										obcaecati adipisci rem?</p>
+									<div class="social-icons">
+										<li><a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-github"></i></a>
+										</li>
+										<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+										</li>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<!-- Card 4  -->
 				<div class="mix designer">
 					<div class="team-block-two text-center">
-						<div class="img-meta"><a href="https://www.instagram.com/vasma_graphix_/" target="!blank"><img
-									src="images/team/vasuphoto_croped.png" alt="" class="w-100"></a></div>
+						<div class="img-meta"><a data-tab="team4"><img src="images/team/vasuphoto_croped.png"
+									class="w-100"></a></div>
 						<h4 class="name">Vasu Verma</h4>
 						<p>Lead Visual Artist</p>
 					</div>
+					<div class="popup-wrap" id="team4">
+						<div class="overlay">
+							<div class="popup-box">
+								<div class="close-btn"></div>
+								<div class="left-image">
+									<div class="img-meta"><a><img src="images/team/vasuphoto_croped.png"
+												class="w-100"></a>
+									</div>
+								</div>
+								<div class="right-content">
+									<h2>Vasu Verma</h2>
+									<p class="role">Lead Visual Artist</p>
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo in
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo Lorem
+										ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo commodi
+										obcaecati adipisci rem?</p>
+									<div class="social-icons">
+										<li><a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-github"></i></a>
+										</li>
+										<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+										</li>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
+
+				<!-- Card 5 -->
 				<div class="mix support">
 					<div class="team-block-two text-center">
-						<div class="img-meta"><img src="images/team/UnknowmUser.jpg" class="w-100"></div>
+						<div class="img-meta"><a data-tab="team5"><img src="images/team/AakashProfileIMG.png"
+									class="w-100"></a>
+						</div>
 						<h4 class="name">Aakash Panchal</h4>
 						<p>Lead Web Developer</p>
+					</div>
+					<div class="popup-wrap" id="team5">
+						<div class="overlay">
+							<div class="popup-box">
+								<div class="close-btn"></div>
+								<div class="left-image">
+									<div class="img-meta"><a><img src="images/team/AakashProfileIMG.png"
+												class="w-100"></a>
+									</div>
+								</div>
+								<div class="right-content">
+									<h2>Aakash Panchal</h2>
+									<p class="role">Lead Web Developer</p>
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo in
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo Lorem
+										ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo commodi
+										obcaecati adipisci rem?</p>
+									<div class="social-icons">
+										<li><a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-github"></i></a>
+										</li>
+										<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+										</li>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 				<div class="mix marketer">
 					<div class="team-block-two text-center">
-						<div class="img-meta"><img src="images/team/GovindPhoto_CleverStudio.jpg" alt="" class="w-100">
+						<div class="img-meta"><a data-tab="team6"><img src="images/team/GovindPhoto_CleverStudio.jpg"
+									class="w-100"></a>
 						</div>
 						<h4 class="name">Govind Mewada</h4>
 						<p>Digital Marketer </p>
+					</div>
+					<div class="popup-wrap" id="team6">
+						<div class="overlay">
+							<div class="popup-box">
+								<div class="close-btn"></div>
+								<div class="left-image">
+									<div class="img-meta"><a><img src="images/team/GovindPhoto_CleverStudio.jpg"
+												class="w-100"></a>
+									</div>
+								</div>
+								<div class="right-content">
+									<h2>Govind Mewada</h2>
+									<p class="role">Digital Marketer</p>
+									<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo in
+										Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo Lorem
+										ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo commodi
+										obcaecati adipisci rem?</p>
+									<div class="social-icons">
+										<li><a href="#" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-instagram"></i></a>
+										</li>
+										<li><a href="#"><i class="fab fa-github"></i></a>
+										</li>
+										<li><a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+										</li>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -335,6 +537,24 @@
 		<i class="bi bi-arrow-up-short"></i>
 	</button>
 
+	<script>
+		$(function () {
+			$('.img-meta a').on('click', function (e) {
+				e.preventDefault();
+
+				var PopupId = $(this).attr('data-tab');
+				$('#' + PopupId).fadeIn(300);
+
+				document.body.style.overflow = "hidden";
+			})
+
+			$('.close-btn').on('click', function () {
+				$(this).parents('.popup-wrap').fadeOut(300);
+				document.body.style.overflow = "";
+			})
+		})
+	</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
 
 

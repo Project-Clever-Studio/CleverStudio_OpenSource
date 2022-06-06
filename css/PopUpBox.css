@@ -1,0 +1,161 @@
+html {
+    font-size: 62.5%;
+}
+
+.popup-wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.popup-box {
+    background-color: #fff;
+    color: #333;
+    width: 60%;
+    margin: 0 auto;
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.popup-box .left-image {
+    flex: 0 0 30%;
+    max-width: 30%;
+}
+
+.left-image img {
+    border-radius: 1rem;
+}
+
+.popup-box .right-content {
+    max-width: 70%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.popup-box .right-content h2,
+p,
+.social-icons {
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
+.popup-box .right-content h2 {
+    font-weight: 600;
+}
+
+.popup-box .right-content .social-icons {
+    display: flex;
+}
+
+.popup-box .right-content .social-icons li {
+    list-style: none;
+}
+
+.popup-box .right-content .social-icons li a {
+    font-size: 2.5rem;
+    margin-right: 1.2rem;
+}
+
+.close-btn {
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    z-index: 101;
+    right: 3rem;
+}
+
+.close-btn::before,
+.close-btn::after {
+    content: "";
+    display: block;
+    width: 0.2rem;
+    height: 100%;
+    background: #333;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+}
+
+.close-btn::before {
+    transform: rotate(45deg);
+}
+
+.close-btn::after {
+    transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        font-size: 30%;
+    }
+
+    .popup-box {
+        display: block;
+        width: 80%;
+    }
+
+    .popup-box .left-image {
+        display: flex;
+        justify-content: center;
+        min-width: 100%;
+    }
+
+    .popup-box .right-content {
+        min-width: 100%;
+        margin-top: 3rem;
+    }
+
+    .popup-box .right-content h2 {
+        font-size: 5rem;
+    }
+
+    .popup-box .right-content h2,
+    p,
+    .social-icons {
+        margin: 0;
+    }
+
+    .popup-box .right-content .role {
+        font-size: 3rem;
+    }
+
+    .popup-box .right-content p {
+        margin-top: 2rem;
+        font-size: 2.3rem;
+        line-height: 2;
+    }
+
+    .social-icons li a i {
+        margin-top: 3rem;
+        font-size: 3rem;
+    }
+
+    .close-btn {
+        width: 4rem;
+        height: 4rem;
+    }
+}
