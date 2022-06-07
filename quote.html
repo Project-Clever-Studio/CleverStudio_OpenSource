@@ -95,7 +95,7 @@
 
   <div class="form-div">
     <div class="main-form">
-      <form autocomplete="on" action="mail.php" method="POST">
+      <form autocomplete="on" action="/php/quote.php" method="POST">
         <!-- Form Heading  -->
         <div class="heading-t">
           <h2>Get a Quote • Start Working with Clever Studio</h2>
@@ -106,19 +106,20 @@
           <!-- Project Title  -->
           <div class="project-title-div input-box">
             <label>Project Title</label>
-            <input id="project-title" name="project-title" type="text" placeholder="Enter Your Project Title" />
+            <input id="project-title" name="project-title" type="text" required
+              placeholder="Enter Your Project Title" />
           </div>
 
           <!-- Client / Brand Name   -->
           <div class="client-brand-div input-box">
             <label>Client / Brand Name </label>
-            <input id="client-brand" name="client-brand" type="text" placeholder="Enter Client / Brand Name" />
+            <input id="client-brand" name="client-brand" type="text" required placeholder="Enter Client / Brand Name" />
           </div>
 
           <!-- Email Address  -->
           <div class="email-div input-box">
             <label>Email</label>
-            <input id="email" name="email" type="email" placeholder="Enter Your Email" />
+            <input id="email" name="email" type="email" required placeholder="Enter Your Email" />
           </div>
 
           <!-- Contact Number -->
@@ -130,7 +131,7 @@
           <!-- Type of Project   -->
           <div class="type-of-project-div input-box">
             <label>Type Of Project</label>
-            <select class="menu-1" name="type-of-project" size="1" onchange="yesnoCheck(this);">
+            <select class="menu-1" name="type-of-project" size="1" required onchange="yesnoCheck(this);">
               <option value="unselected" selected>Select</option>
               <option value="Newly-Open">Newly Open</option>
               <option value="Rebranding">Rebranding</option>
@@ -162,20 +163,20 @@
           <!-- Project Brief Info  -->
           <div class="brief-info-div input-box">
             <label>Project Brief Info </label>
-            <textarea name="brief-info-text" placeholder="Required information about project"></textarea>
+            <textarea name="brief-info-text" required placeholder="Required information about project"></textarea>
           </div>
 
           <!-- Brand / Company Niche -->
           <div class="brand-Niece-info-div input-box">
             <label>Brand / Company Niche </label>
-            <textarea name="brand-Niece-info" id="" cols="30" rows="10"
+            <textarea name="brand-Niece-info" cols="30" rows="10" required
               placeholder="What do your company do in detail"></textarea>
           </div>
 
           <!-- Target Audience  -->
           <div class="target-audience-div input-box">
             <label for="target-audience">Target Audience </label>
-            <textarea name="target-audience" id="" cols="30" rows="10"
+            <textarea name="target-audience" id="" cols="30" rows="10" required
               placeholder="What type of audience your brand mostly targets"></textarea>
           </div>
 
@@ -189,14 +190,14 @@
           <!-- Minimum Budget -->
           <div class="min-budget-div input-box">
             <label for="min-budget">Minimum Budget for this project?</label>
-            <textarea name="min-budget" id="" cols="30" rows="10"
+            <textarea name="min-budget" id="" cols="30" rows="10" required
               placeholder="Minimum Budget decided by your team for this particular project."></textarea>
           </div>
 
           <!-- Maximum Budget -->
           <div class="max-budget-div input-box">
             <label for="max-budget">Maximum Budget for this project?</label>
-            <textarea name="max-budget" id="" cols="30" rows="10"
+            <textarea name="max-budget" id="" cols="30" rows="10" required
               placeholder="Maximum Budget decided by your team for this particular project."></textarea>
           </div>
 
@@ -209,7 +210,7 @@
                 <label for="Logo">Logo</label>
               </li>
               <li>
-                <input name="graphics-checkbox[]" type="checkbox" id="Posters" value="Posters" checked />
+                <input name="graphics-checkbox[]" type="checkbox" id="Posters" value="Posters" />
                 <label for="Posters">Posters</label>
               </li>
               <li>
@@ -321,7 +322,7 @@
             <li><a href="/team.html">Our Team</a></li>
             <li><a href="/about-us.html">About us</a></li>
             <li><a href="/portfolio.html">Works</a></li>
-            
+
           </ul>
         </div>
         <div class="col-lg-3 col-md-3 col-sm-6 mb-40">
@@ -423,7 +424,7 @@
         $("#txtPhone").val(value).intlTelInput("setCountry", countryCode);
       });
 
-      var code = "+91";
+      var code = "+91 ";
       $("#txtPhone").val(code).intlTelInput();
     });
   </script>
