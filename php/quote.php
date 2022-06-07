@@ -28,5 +28,5 @@ $headers .= "From: Clever Studio <no-reply@cleverstudio.in>" . "\r\n" .
 if($email!=NULL){
     mail($to,$subject,$body,$headers);
 }
-header("Location:thankyou.html");
+header("Location:../thankyou.html");
 ?>
