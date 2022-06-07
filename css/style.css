@@ -1823,19 +1823,19 @@ body .theme-btn-thirteen:hover {
   border-bottom: 1px solid #e8e8e8;
   padding-bottom: 50px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section One ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-feature-section-one .bg-wrapper {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section One ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-feature-section-one .bg-wrapper {
   padding: 155px 15px 80px;
   background: var(--light-cyan);
   position: relative;
   z-index: 1;
 }
-.vcamp-feature-section-one .bg-wrapper .shape-one {
+.CleverStudio-feature-section-one .bg-wrapper .shape-one {
   left: 14%;
   bottom: 8%;
   animation: jumpTwo 5s infinite linear;
 }
-.vcamp-feature-section-one .meta-info-text {
+.CleverStudio-feature-section-one .meta-info-text {
   color: var(--heading);
   padding: 30px 0 65px;
 }
@@ -1869,15 +1869,15 @@ body .theme-btn-thirteen:hover {
   padding: 0 50px 32px 0;
   margin-bottom: 0;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block One ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-one {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block One ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-one {
   position: relative;
   z-index: 1;
 }
-.vcamp-text-block-one .text-wrapper {
+.CleverStudio-text-block-one .text-wrapper {
   padding-top: 40px;
 }
-.vcamp-text-block-one .video-icon {
+.CleverStudio-text-block-one .video-icon {
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -1888,8 +1888,8 @@ body .theme-btn-thirteen:hover {
   z-index: 1;
   animation: ripple 3s linear infinite;
 }
-.vcamp-text-block-one .video-icon::before,
-.vcamp-text-block-one .video-icon::after {
+.CleverStudio-text-block-one .video-icon::before,
+.CleverStudio-text-block-one .video-icon::after {
   content: "";
   position: absolute;
   top: 0;
@@ -1900,27 +1900,27 @@ body .theme-btn-thirteen:hover {
   animation: inherit;
   animation-delay: 1s;
 }
-.vcamp-text-block-one .video-icon::after {
+.CleverStudio-text-block-one .video-icon::after {
   animation-delay: 3s;
 }
-.vcamp-text-block-one .meta-info-text {
+.CleverStudio-text-block-one .meta-info-text {
   padding: 45px 30px 50px 0;
 }
-.vcamp-text-block-one .text-wrapper h6 {
+.CleverStudio-text-block-one .text-wrapper h6 {
   font-family: "gorditamedium";
   font-size: 25px;
   padding: 65px 0 12px;
 }
-.vcamp-text-block-one .meta-info-text-two {
+.CleverStudio-text-block-one .meta-info-text-two {
   font-size: 22px;
   line-height: 1.85em;
   padding-right: 30px;
   margin-bottom: 0;
 }
-.vcamp-text-block-one .img-container {
+.CleverStudio-text-block-one .img-container {
   padding: 0 0 50px 110px;
 }
-.vcamp-text-block-one .quote-wrapper {
+.CleverStudio-text-block-one .quote-wrapper {
   position: absolute;
   width: 410px;
   background: #fff;
@@ -1932,36 +1932,36 @@ body .theme-btn-thirteen:hover {
   box-shadow: 0 40px 80px rgba(23, 42, 65, 0.06);
   animation: jumpTwo 8s infinite linear;
 }
-.vcamp-text-block-one .quote-wrapper blockquote {
+.CleverStudio-text-block-one .quote-wrapper blockquote {
   font-size: 20px;
   line-height: 1.75em;
   padding-bottom: 16px;
 }
-.vcamp-text-block-one .quote-wrapper .name {
+.CleverStudio-text-block-one .quote-wrapper .name {
   font-family: "gorditamedium";
   font-size: 20px;
   margin-bottom: 0;
 }
-.vcamp-text-block-one .quote-wrapper .name span {
+.CleverStudio-text-block-one .quote-wrapper .name span {
   font-family: "gorditaregular";
   font-weight: normal;
   font-size: 18px;
   color: #9c9c9c;
 }
-.vcamp-text-block-one .quote-wrapper .icon {
+.CleverStudio-text-block-one .quote-wrapper .icon {
   position: absolute;
   right: 43px;
   bottom: 32px;
 }
-.vcamp-text-block-one .illustration {
+.CleverStudio-text-block-one .illustration {
   animation: jumpTwo 5s infinite linear;
 }
-.vcamp-text-block-one .video-img-box {
+.CleverStudio-text-block-one .video-img-box {
   position: relative;
   border-radius: 30px;
   overflow: hidden;
 }
-.vcamp-text-block-one .video-img-box .video-icon {
+.CleverStudio-text-block-one .video-img-box .video-icon {
   background: var(--red-one);
   position: absolute;
   top: 50%;
@@ -1969,20 +1969,20 @@ body .theme-btn-thirteen:hover {
   transform: translate(-50%, -50%);
   z-index: 1;
 }
-.vcamp-text-block-one .left-img-meta {
+.CleverStudio-text-block-one .left-img-meta {
   position: absolute;
   left: 0;
   top: 50%;
   transform: translateY(-50%);
   max-width: 38%;
 }
-.vcamp-text-block-one .left-img-meta .shape-one {
+.CleverStudio-text-block-one .left-img-meta .shape-one {
   top: -88px;
   right: -93px;
   z-index: 1;
   animation: fade-in 1.5s infinite linear;
 }
-.vcamp-text-block-one .shape-two {
+.CleverStudio-text-block-one .shape-two {
   right: 5%;
   bottom: -9%;
   animation: jumpThree 5s infinite linear;
@@ -2071,7 +2071,7 @@ body .theme-btn-thirteen:hover {
   bottom: 0;
   max-width: 50.1%;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .card-style-two {
   border-top: 1px solid #e4e4e4;
   padding-top: 65px;
@@ -2422,24 +2422,24 @@ body .theme-btn-thirteen:hover {
   text-decoration: underline;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Footer One ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-footer-one .bg-wrapper {
+.CleverStudio-footer-one .bg-wrapper {
   padding: 90px 0 70px;
   background: var(--light-blue);
   position: relative;
   z-index: 5;
 }
-.vcamp-footer-one .bg-wrapper .illustration {
+.CleverStudio-footer-one .bg-wrapper .illustration {
   max-width: 25%;
   left: 7%;
   bottom: 0;
 }
-.vcamp-footer-one .subscribe-area .subscribe-form form {
+.CleverStudio-footer-one .subscribe-area .subscribe-form form {
   position: relative;
   height: 66px;
   max-width: 540px;
   margin-left: auto;
 }
-.vcamp-footer-one .subscribe-area .subscribe-form form input {
+.CleverStudio-footer-one .subscribe-area .subscribe-form form input {
   width: 100%;
   height: 100%;
   border: 2px solid var(--heading);
@@ -2449,7 +2449,7 @@ body .theme-btn-thirteen:hover {
   border-radius: 7px;
   background: transparent;
 }
-.vcamp-footer-one .subscribe-area .subscribe-form form button {
+.CleverStudio-footer-one .subscribe-area .subscribe-form form button {
   position: absolute;
   width: 135px;
   background: var(--heading);
@@ -2460,30 +2460,30 @@ body .theme-btn-thirteen:hover {
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-one .subscribe-area .subscribe-form form button img {
+.CleverStudio-footer-one .subscribe-area .subscribe-form form button img {
   vertical-align: baseline;
 }
-.vcamp-footer-one .subscribe-area .subscribe-form p {
+.CleverStudio-footer-one .subscribe-area .subscribe-form p {
   text-align: right;
   font-size: 15px;
   color: #969696;
   padding-top: 15px;
   margin-bottom: 0;
 }
-.vcamp-footer-one .subscribe-area .subscribe-form p a {
+.CleverStudio-footer-one .subscribe-area .subscribe-form p a {
   color: var(--heading);
 }
-.vcamp-footer-one .subscribe-area .subscribe-form p a:hover {
+.CleverStudio-footer-one .subscribe-area .subscribe-form p a:hover {
   text-decoration: underline;
 }
-.vcamp-footer-one .subscribe-area-two {
+.CleverStudio-footer-one .subscribe-area-two {
   background: url(../images/media/img_39.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;
   padding: 95px 0 70px;
 }
-.vcamp-footer-one .subscribe-area-two:before {
+.CleverStudio-footer-one .subscribe-area-two:before {
   content: "";
   position: absolute;
   left: 0;
@@ -2498,22 +2498,22 @@ body .theme-btn-thirteen:hover {
     #121115 63.05%
   );
 }
-.vcamp-footer-one .subscribe-area-two ::-webkit-input-placeholder {
+.CleverStudio-footer-one .subscribe-area-two ::-webkit-input-placeholder {
   color: #404040;
 }
-.vcamp-footer-one .subscribe-area-two :-ms-input-placeholder {
+.CleverStudio-footer-one .subscribe-area-two :-ms-input-placeholder {
   color: #404040;
 }
-.vcamp-footer-one .subscribe-area-two ::placeholder {
+.CleverStudio-footer-one .subscribe-area-two ::placeholder {
   color: #404040;
 }
-.vcamp-footer-one .subscribe-area-two .subscribe-form form {
+.CleverStudio-footer-one .subscribe-area-two .subscribe-form form {
   position: relative;
   height: 66px;
   max-width: 500px;
   margin-left: auto;
 }
-.vcamp-footer-one .subscribe-area-two .subscribe-form form input {
+.CleverStudio-footer-one .subscribe-area-two .subscribe-form form input {
   width: 100%;
   height: 100%;
   border: none;
@@ -2522,7 +2522,7 @@ body .theme-btn-thirteen:hover {
   color: #404040;
   background: #fff;
 }
-.vcamp-footer-one .subscribe-area-two .subscribe-form form button {
+.CleverStudio-footer-one .subscribe-area-two .subscribe-form form button {
   position: absolute;
   width: 135px;
   background: var(--red-two);
@@ -2532,108 +2532,108 @@ body .theme-btn-thirteen:hover {
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-one .subscribe-area-two .subscribe-form form button.bg-two {
+.CleverStudio-footer-one .subscribe-area-two .subscribe-form form button.bg-two {
   background: var(--red-one);
 }
-.vcamp-footer-one .subscribe-area-two .subscribe-form p {
+.CleverStudio-footer-one .subscribe-area-two .subscribe-form p {
   text-align: right;
   font-size: 15px;
   color: #969696;
   padding-top: 15px;
   margin-bottom: 0;
 }
-.vcamp-footer-one .subscribe-area-two .subscribe-form p a {
+.CleverStudio-footer-one .subscribe-area-two .subscribe-form p a {
   color: #fff;
 }
-.vcamp-footer-one .subscribe-area-two .subscribe-form p a:hover {
+.CleverStudio-footer-one .subscribe-area-two .subscribe-form p a:hover {
   text-decoration: underline;
 }
-.vcamp-footer-one .top-footer .shape {
+.CleverStudio-footer-one .top-footer .shape {
   max-width: 152px;
 }
-.vcamp-footer-one .top-footer .footer-title {
+.CleverStudio-footer-one .top-footer .footer-title {
   font-family: "gorditamedium";
   font-size: 24px;
   padding: 8px 0 20px 0;
   margin-bottom: 0;
 }
-.vcamp-footer-one .top-footer .footer-nav-link a {
+.CleverStudio-footer-one .top-footer .footer-nav-link a {
   line-height: 40px;
   color: #515151;
   font-size: 16px;
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-one .top-footer .footer-nav-link a:hover {
+.CleverStudio-footer-one .top-footer .footer-nav-link a:hover {
   color: var(--red-one);
   text-decoration: underline;
 }
-.vcamp-footer-one .top-footer [class*="col-"] {
+.CleverStudio-footer-one .top-footer [class*="col-"] {
   margin-bottom: 35px;
 }
-.vcamp-footer-one .bottom-footer {
+.CleverStudio-footer-one .bottom-footer {
   padding: 35px 0 15px;
 }
-.vcamp-footer-one .bottom-footer .footer-nav a {
+.CleverStudio-footer-one .bottom-footer .footer-nav a {
   font-family: "gorditamedium";
   font-size: 15px;
   color: var(--heading);
   margin-right: 22px;
 }
-.vcamp-footer-one .bottom-footer .footer-nav a:hover {
+.CleverStudio-footer-one .bottom-footer .footer-nav a:hover {
   text-decoration: underline;
 }
-.vcamp-footer-one .bottom-footer .copyright {
+.CleverStudio-footer-one .bottom-footer .copyright {
   font-size: 15px;
   margin: 0;
 }
-.vcamp-footer-one .bottom-footer .social-icon a {
+.CleverStudio-footer-one .bottom-footer .social-icon a {
   font-size: 19px;
   margin-left: 19px;
   color: #333333;
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-one .bottom-footer .social-icon a:hover {
+.CleverStudio-footer-one .bottom-footer .social-icon a:hover {
   color: var(--red-one);
 }
 /*-- Dark Bg ---*/
-.vcamp-footer-one.dark-bg {
+.CleverStudio-footer-one.dark-bg {
   position: relative;
   padding: 240px 0 0;
   color: #fff;
 }
-.vcamp-footer-one.dark-bg.image-bg {
+.CleverStudio-footer-one.dark-bg.image-bg {
   background-image: url(../images/shape/bg-1.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 320px;
 }
-.vcamp-footer-one.dark-bg .subscribe-area .subscribe-form form input {
+.CleverStudio-footer-one.dark-bg .subscribe-area .subscribe-form form input {
   border: 2px solid #272727;
   background: #272727;
   color: rgba(255, 255, 255, 0.5);
 }
-.vcamp-footer-one.dark-bg .subscribe-area .subscribe-form form button {
+.CleverStudio-footer-one.dark-bg .subscribe-area .subscribe-form form button {
   background: var(--red-one);
 }
-.vcamp-footer-one.dark-bg .subscribe-area .subscribe-form p a,
-.vcamp-footer-one.dark-bg .top-footer .footer-title {
+.CleverStudio-footer-one.dark-bg .subscribe-area .subscribe-form p a,
+.CleverStudio-footer-one.dark-bg .top-footer .footer-title {
   color: #fff;
 }
-.vcamp-footer-one.dark-bg .top-footer .footer-nav-link a,
-.vcamp-footer-one.dark-bg .bottom-footer .footer-nav a,
-.vcamp-footer-one.dark-bg .bottom-footer .social-icon a,
-.vcamp-footer-one.dark-bg .bottom-footer .copyright {
+.CleverStudio-footer-one.dark-bg .top-footer .footer-nav-link a,
+.CleverStudio-footer-one.dark-bg .bottom-footer .footer-nav a,
+.CleverStudio-footer-one.dark-bg .bottom-footer .social-icon a,
+.CleverStudio-footer-one.dark-bg .bottom-footer .copyright {
   color: rgba(255, 255, 255, 0.7);
 }
-.vcamp-footer-one.dark-bg .top-footer .footer-nav-link a:hover {
+.CleverStudio-footer-one.dark-bg .top-footer .footer-nav-link a:hover {
   color: var(--red-one);
   text-decoration: underline;
 }
-.vcamp-footer-one.dark-bg .bottom-footer .social-icon a:hover {
+.CleverStudio-footer-one.dark-bg .bottom-footer .social-icon a:hover {
   color: #fff;
 }
-.vcamp-footer-one.dark-bg .bottom-footer {
+.CleverStudio-footer-one.dark-bg .bottom-footer {
   padding-top: 90px;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
@@ -2707,8 +2707,8 @@ body .theme-btn-thirteen:hover {
 .hero-banner-two .button-group .callback-button:hover {
   text-decoration: underline;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-feature-section-three .meta-info-text {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-feature-section-three .meta-info-text {
   color: var(--heading);
   margin-bottom: 0;
 }
@@ -2736,7 +2736,7 @@ body .theme-btn-thirteen:hover {
 .card-style-three p {
   line-height: 1.83em;
 }
-.vcamp-feature-section-three .service-title {
+.CleverStudio-feature-section-three .service-title {
   display: inline-block;
   position: relative;
   font-size: 16px;
@@ -2748,17 +2748,17 @@ body .theme-btn-thirteen:hover {
   background: #000;
 }
 /*--- Dark Version ---*/
-.vcamp-feature-section-three.dark-bg {
+.CleverStudio-feature-section-three.dark-bg {
   padding: 180px 0 350px;
   position: relative;
   z-index: 1;
 }
-.vcamp-feature-section-three.dark-bg .shape-one {
+.CleverStudio-feature-section-three.dark-bg .shape-one {
   top: -100px;
   right: 0;
   animation: fade-in 1.5s infinite linear;
 }
-.vcamp-feature-section-three.dark-bg .service-title {
+.CleverStudio-feature-section-three.dark-bg .service-title {
   background: var(--red-one);
 }
 .dark-bg .card-style-three .icon {
@@ -2770,7 +2770,7 @@ body .theme-btn-thirteen:hover {
 .dark-bg .card-style-three ul li {
   color: rgba(255, 255, 255, 0.65);
 }
-.vcamp-feature-section-three.dark-bg .border-line {
+.CleverStudio-feature-section-three.dark-bg .border-line {
   background: rgba(255, 255, 255, 0.3);
   margin-bottom: 110px;
 }
@@ -2865,24 +2865,24 @@ body .theme-btn-thirteen:hover {
 .feedback_slider_three .slick-dots li.slick-active button {
   background: #fff;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-feature-section-four {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-feature-section-four {
   position: relative;
   z-index: 1;
 }
-.vcamp-feature-section-four .shape-one {
+.CleverStudio-feature-section-four .shape-one {
   right: 5%;
   top: -18%;
   animation: jumpThree 5s infinite linear;
 }
-.vcamp-feature-section-four .text-wrapper {
+.CleverStudio-feature-section-four .text-wrapper {
   background: #fff;
   box-shadow: 5px 5px 0px #000;
   border-radius: 24px;
   padding: 60px 15px 70px 70px;
   margin-right: 10px;
 }
-.vcamp-feature-section-four .text-wrapper .meta-info-text {
+.CleverStudio-feature-section-four .text-wrapper .meta-info-text {
   padding: 37px 40px 50px 0;
 }
 .card-style-four .icon {
@@ -3167,24 +3167,24 @@ body .theme-btn-thirteen:hover {
 .hero-banner-three .slider-wrapper .hero_slider_one {
   background: #161616;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-two {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-two {
   background: var(--light-cyan);
   padding: 90px 0 0;
   position: relative;
   z-index: 1;
 }
-.vcamp-text-block-two .text-wrapper {
+.CleverStudio-text-block-two .text-wrapper {
   padding: 0 0 100px 84px;
 }
-.vcamp-text-block-two .meta-info-text {
+.CleverStudio-text-block-two .meta-info-text {
   padding: 45px 30px 45px 0;
 }
-.vcamp-text-block-two .img-container {
+.CleverStudio-text-block-two .img-container {
   z-index: 1;
   display: inline-block;
 }
-.vcamp-text-block-two .img-container:before {
+.CleverStudio-text-block-two .img-container:before {
   content: "";
   position: absolute;
   background: linear-gradient(
@@ -3198,12 +3198,12 @@ body .theme-btn-thirteen:hover {
   right: 0;
   height: 280px;
 }
-.vcamp-text-block-two .img-container .shape-one {
+.CleverStudio-text-block-two .img-container .shape-one {
   left: 20px;
   bottom: 0;
   animation: fade-in 1.5s infinite linear;
 }
-.vcamp-text-block-two .quote-wrapper {
+.CleverStudio-text-block-two .quote-wrapper {
   position: absolute;
   width: 410px;
   background: #fff;
@@ -3214,28 +3214,28 @@ body .theme-btn-thirteen:hover {
   box-shadow: 0 30px 60px rgba(7, 23, 28, 0.08);
   animation: jumpTwo 8s infinite linear;
 }
-.vcamp-text-block-two .quote-wrapper blockquote {
+.CleverStudio-text-block-two .quote-wrapper blockquote {
   font-size: 20px;
   line-height: 1.75em;
   padding-bottom: 16px;
 }
-.vcamp-text-block-two .quote-wrapper .name {
+.CleverStudio-text-block-two .quote-wrapper .name {
   font-family: "gorditamedium";
   font-size: 20px;
   margin-bottom: 0;
 }
-.vcamp-text-block-two .quote-wrapper .name span {
+.CleverStudio-text-block-two .quote-wrapper .name span {
   font-family: "gorditaregular";
   font-weight: normal;
   font-size: 18px;
   color: #9c9c9c;
 }
-.vcamp-text-block-two .quote-wrapper .icon {
+.CleverStudio-text-block-two .quote-wrapper .icon {
   position: absolute;
   right: 43px;
   bottom: 32px;
 }
-.vcamp-text-block-two .shape-two {
+.CleverStudio-text-block-two .shape-two {
   right: 0;
   top: -18%;
   animation: fade-in 1s infinite linear;
@@ -3548,22 +3548,22 @@ body .theme-btn-thirteen:hover {
   animation-name: fadeInUpSD;
   animation-duration: 1s;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-three {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-three {
   position: relative;
   padding: 300px 0 200px;
   z-index: 1;
 }
-.vcamp-text-block-three .text-wrapper {
+.CleverStudio-text-block-three .text-wrapper {
   padding-left: 50px;
 }
-.vcamp-text-block-three .text-wrapper h6 {
+.CleverStudio-text-block-three .text-wrapper h6 {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
   color: var(--red-two);
 }
-.vcamp-text-block-three .text-wrapper p {
+.CleverStudio-text-block-three .text-wrapper p {
   font-family: "gorditalight";
   font-size: 60px;
   line-height: 1.36em;
@@ -3571,17 +3571,17 @@ body .theme-btn-thirteen:hover {
   letter-spacing: -1px;
   padding: 27px 0 34px;
 }
-.vcamp-text-block-three .text-wrapper p span {
+.CleverStudio-text-block-three .text-wrapper p span {
   color: var(--red-two);
 }
-.vcamp-text-block-three .text-wrapper .name {
+.CleverStudio-text-block-three .text-wrapper .name {
   font-family: "gorditalight";
   font-size: 24px;
   color: #fff;
   font-style: italic;
   padding-left: 30px;
 }
-.vcamp-text-block-three .text-wrapper .name:before {
+.CleverStudio-text-block-three .text-wrapper .name:before {
   content: "";
   width: 19px;
   height: 2px;
@@ -3590,10 +3590,10 @@ body .theme-btn-thirteen:hover {
   left: 0;
   top: 15px;
 }
-.vcamp-text-block-three .img-container {
+.CleverStudio-text-block-three .img-container {
   padding: 0 0 7% 7%;
 }
-.vcamp-text-block-three .img-container:before {
+.CleverStudio-text-block-three .img-container:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -3603,25 +3603,25 @@ body .theme-btn-thirteen:hover {
   bottom: 0;
   background: #ff3c3c;
 }
-.vcamp-text-block-three .shape-one {
+.CleverStudio-text-block-three .shape-one {
   right: 0;
   bottom: -110px;
   animation: fade-in 1s infinite linear;
 }
-.vcamp-text-block-three .counter-block {
+.CleverStudio-text-block-three .counter-block {
   margin-bottom: 30px;
 }
-.vcamp-text-block-three .counter-block .main-count {
+.CleverStudio-text-block-three .counter-block .main-count {
   font-family: "gorditabold";
   font-size: 58px;
   color: #fff;
   line-height: initial;
   margin-bottom: 8px;
 }
-.vcamp-text-block-three .counter-block p {
+.CleverStudio-text-block-three .counter-block p {
   color: #fff;
 }
-.vcamp-text-block-three .text-block h4 {
+.CleverStudio-text-block-three .text-block h4 {
   display: inline-block;
   font-size: 28px;
   color: #fff;
@@ -3629,7 +3629,7 @@ body .theme-btn-thirteen:hover {
   padding-right: 10px;
   position: relative;
 }
-.vcamp-text-block-three .text-block h4:before {
+.CleverStudio-text-block-three .text-block h4:before {
   content: "";
   position: absolute;
   width: 35px;
@@ -3638,21 +3638,21 @@ body .theme-btn-thirteen:hover {
   bottom: 6px;
   left: 100%;
 }
-.vcamp-text-block-three .text-block p {
+.CleverStudio-text-block-three .text-block p {
   color: rgba(255, 255, 255, 0.7);
   margin-bottom: 35px;
   line-height: 36px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-four .left-side {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-four .left-side {
   background: url(../images/media/img_23.jpg) no-repeat center;
   background-size: cover;
 }
-.vcamp-text-block-four .right-side {
+.CleverStudio-text-block-four .right-side {
   background: url(../images/media/img_24.jpg) no-repeat center;
   background-size: cover;
 }
-.vcamp-text-block-four .right-side .content-wrapper:before {
+.CleverStudio-text-block-four .right-side .content-wrapper:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -3662,26 +3662,26 @@ body .theme-btn-thirteen:hover {
   mix-blend-mode: multiply;
   background-color: #eb0000;
 }
-.vcamp-text-block-four .text-wrapper {
+.CleverStudio-text-block-four .text-wrapper {
   max-width: 660px;
   padding: 145px 0 130px;
 }
-.vcamp-text-block-four .right-side .text-wrapper {
+.CleverStudio-text-block-four .right-side .text-wrapper {
   padding-left: 55px;
 }
-.vcamp-text-block-four .text-wrapper .title {
+.CleverStudio-text-block-four .text-wrapper .title {
   font-family: "gorditabold";
   font-size: 68px;
   line-height: 1.17em;
   color: #fff;
 }
-.vcamp-text-block-four .text-wrapper p {
+.CleverStudio-text-block-four .text-wrapper p {
   font-family: "gorditalight";
   font-size: 22px;
   color: #fff;
   padding: 40px 0 34px;
 }
-.vcamp-text-block-four .text-wrapper .more-button {
+.CleverStudio-text-block-four .text-wrapper .more-button {
   width: 54px;
   height: 54px;
   border-radius: 50%;
@@ -3783,8 +3783,8 @@ body .theme-btn-thirteen:hover {
   bottom: -110px;
   animation: fade-in 1s infinite linear;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-five .text-wrapper p {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-five .text-wrapper p {
   padding-top: 55px;
   margin-bottom: 0;
 }
@@ -4016,7 +4016,7 @@ body .theme-btn-thirteen:hover {
 .team-section-one .mixitUp-container {
   margin: 0 -20px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Fancy Banner One ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Fancy Banner One ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-banner-one {
   background: url(../images/media/img_30.jpg) no-repeat center;
   background-size: cover;
@@ -4048,10 +4048,10 @@ body .theme-btn-thirteen:hover {
   background: var(--heading);
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Footer Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-footer-two.dark-footer {
+.CleverStudio-footer-two.dark-footer {
   background: #161616;
 }
-.vcamp-footer-two .title {
+.CleverStudio-footer-two .title {
   font-size: 16px;
   text-transform: uppercase;
   color: rgba(0, 0, 0, 0.7);
@@ -4059,30 +4059,30 @@ body .theme-btn-thirteen:hover {
   padding-bottom: 25px;
   margin-bottom: 0;
 }
-.vcamp-footer-two .footer-list a {
+.CleverStudio-footer-two .footer-list a {
   line-height: 40px;
   color: var(--heading);
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-two .footer-list a:hover,
-.vcamp-footer-two.dark-footer .footer-list a:hover {
+.CleverStudio-footer-two .footer-list a:hover,
+.CleverStudio-footer-two.dark-footer .footer-list a:hover {
   text-decoration: underline;
   color: var(--red-two);
 }
-.vcamp-footer-two .newsletter p {
+.CleverStudio-footer-two .newsletter p {
   font-size: 19px;
   color: var(--heading);
 }
-.vcamp-footer-two .newsletter p span {
+.CleverStudio-footer-two .newsletter p span {
   text-decoration: underline;
   color: var(--red-two);
 }
-.vcamp-footer-two .newsletter form {
+.CleverStudio-footer-two .newsletter form {
   height: 70px;
   position: relative;
   margin-bottom: 12px;
 }
-.vcamp-footer-two .newsletter form input {
+.CleverStudio-footer-two .newsletter form input {
   width: 100%;
   height: 100%;
   border: none;
@@ -4092,17 +4092,17 @@ body .theme-btn-thirteen:hover {
   font-size: 16px;
   color: var(--heading);
 }
-.vcamp-footer-two .newsletter form ::placeholder {
+.CleverStudio-footer-two .newsletter form ::placeholder {
   color: rgba(0, 0, 0, 0.5);
   opacity: 1; /* Firefox */
 }
-.vcamp-footer-two .newsletter form :-ms-input-placeholder {
+.CleverStudio-footer-two .newsletter form :-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
-.vcamp-footer-two .newsletter form ::-ms-input-placeholder {
+.CleverStudio-footer-two .newsletter form ::-ms-input-placeholder {
   color: rgba(0, 0, 0, 0.5);
 }
-.vcamp-footer-two .newsletter form button {
+.CleverStudio-footer-two .newsletter form button {
   position: absolute;
   font-size: 18px;
   font-family: "gorditamedium";
@@ -4115,72 +4115,72 @@ body .theme-btn-thirteen:hover {
   transition: all 0.3s ease-in-out;
   height: 6.5rem;
 }
-.vcamp-footer-two .newsletter form button.dark-btn {
+.CleverStudio-footer-two .newsletter form button.dark-btn {
   background: var(--red-one);
 }
-.vcamp-footer-two .newsletter form button.dark-btn:hover {
+.CleverStudio-footer-two .newsletter form button.dark-btn:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
   background: var(--red-two);
 }
-.vcamp-footer-two .newsletter .info {
+.CleverStudio-footer-two .newsletter .info {
   font-size: 14px;
   color: #979797;
 }
-.vcamp-footer-two .bottom-footer {
+.CleverStudio-footer-two .bottom-footer {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
   padding: 35px 0 0;
   margin-top: 45px;
 }
-.vcamp-footer-two .bottom-footer .footer-nav a {
+.CleverStudio-footer-two .bottom-footer .footer-nav a {
   font-family: "gorditamedium";
   font-size: 16px;
   color: var(--heading);
   margin-right: 25px;
 }
-.vcamp-footer-two .bottom-footer .footer-nav a:hover {
+.CleverStudio-footer-two .bottom-footer .footer-nav a:hover {
   text-decoration: underline;
 }
-.vcamp-footer-two .bottom-footer .copyright {
+.CleverStudio-footer-two .bottom-footer .copyright {
   font-size: 16px;
   color: #373737;
 }
-.vcamp-footer-two .bottom-footer .social-icon a {
+.CleverStudio-footer-two .bottom-footer .social-icon a {
   font-size: 20px;
   margin-left: 20px;
   color: var(--heading);
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-two .bottom-footer .social-icon a:hover,
-.vcamp-footer-two.dark-footer .bottom-footer .social-icon a:hover {
+.CleverStudio-footer-two .bottom-footer .social-icon a:hover,
+.CleverStudio-footer-two.dark-footer .bottom-footer .social-icon a:hover {
   color: var(--red-two);
 }
-.vcamp-footer-two.dark-footer .title {
+.CleverStudio-footer-two.dark-footer .title {
   color: rgba(255, 255, 255, 0.5);
 }
-.vcamp-footer-two.dark-footer .footer-list a,
-.vcamp-footer-two.dark-footer .newsletter p,
-.vcamp-footer-two.dark-footer .bottom-footer .footer-nav a,
-.vcamp-footer-two.dark-footer .bottom-footer .social-icon a,
-.vcamp-footer-two.dark-footer .newsletter form input {
+.CleverStudio-footer-two.dark-footer .footer-list a,
+.CleverStudio-footer-two.dark-footer .newsletter p,
+.CleverStudio-footer-two.dark-footer .bottom-footer .footer-nav a,
+.CleverStudio-footer-two.dark-footer .bottom-footer .social-icon a,
+.CleverStudio-footer-two.dark-footer .newsletter form input {
   color: #fff;
 }
-.vcamp-footer-two.dark-footer .newsletter form input {
+.CleverStudio-footer-two.dark-footer .newsletter form input {
   background: rgba(255, 255, 255, 0.11);
 }
-.vcamp-footer-two.dark-footer .newsletter form ::placeholder {
+.CleverStudio-footer-two.dark-footer .newsletter form ::placeholder {
   color: rgba(255, 255, 255, 0.5);
   opacity: 1; /* Firefox */
 }
-.vcamp-footer-two.dark-footer .newsletter form :-ms-input-placeholder {
+.CleverStudio-footer-two.dark-footer .newsletter form :-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-.vcamp-footer-two.dark-footer .newsletter form ::-ms-input-placeholder {
+.CleverStudio-footer-two.dark-footer .newsletter form ::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.5);
 }
-.vcamp-footer-two.dark-footer .bottom-footer {
+.CleverStudio-footer-two.dark-footer .bottom-footer {
   border-top-color: rgba(255, 255, 255, 0.08);
 }
-.vcamp-footer-two.dark-footer .bottom-footer .copyright {
+.CleverStudio-footer-two.dark-footer .bottom-footer .copyright {
   color: rgba(255, 255, 255, 0.7);
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner One ^^^^^^^^^^^^^^^^^^^^^^^^*/
@@ -4305,7 +4305,7 @@ body .theme-btn-thirteen:hover {
 .case-block-two:hover .hover-content {
   opacity: 1;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Fancy Banner Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Fancy Banner Two ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-banner-two {
   background: url(../images/media/img_35.jpg) no-repeat center;
   background-size: cover;
@@ -4480,7 +4480,7 @@ body .theme-btn-thirteen:hover {
 .blog-meta-three .post-footer .read-more:hover {
   transform: translateX(-5px);
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Fancy Banner Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Fancy Banner Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-banner-three {
   background: url(../images/media/img_39.jpg) no-repeat center;
   background-size: cover;
@@ -4510,7 +4510,7 @@ body .theme-btn-thirteen:hover {
   font-size: 20px;
   border-radius: 8px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Fancy Banner Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Fancy Banner Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-banner-four .bg-wrapper {
   background: var(--light-blue);
   padding: 80px 0;
@@ -4614,7 +4614,7 @@ body .theme-btn-thirteen:hover {
   line-height: 1.83em;
   margin-bottom: 0;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .card-style-five {
   position: relative;
   z-index: 5;
@@ -4764,24 +4764,24 @@ body .theme-btn-thirteen:hover {
   line-height: initial;
   margin-bottom: 0;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-feature-section-six {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-feature-section-six {
   background: var(--light-cyan);
   padding: 165px 0 140px;
   position: relative;
   z-index: 1;
 }
-.vcamp-feature-section-six .shape-one {
+.CleverStudio-feature-section-six .shape-one {
   right: 0;
   top: -9%;
   animation: fade-in 1.5s infinite linear;
 }
-.vcamp-feature-section-six .shape-two {
+.CleverStudio-feature-section-six .shape-two {
   left: 19%;
   bottom: -9%;
   animation: fade-in 1.5s infinite linear;
 }
-.vcamp-feature-section-six .text-wrapper p {
+.CleverStudio-feature-section-six .text-wrapper p {
   padding-top: 42px;
   margin-bottom: 0;
 }
@@ -5116,7 +5116,7 @@ body .theme-btn-thirteen:hover {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Fancy Banner Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Fancy Banner Five ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-banner-five .bg-wrapper {
   background: var(--light-blue);
   text-align: center;
@@ -5311,7 +5311,7 @@ body .theme-btn-thirteen:hover {
   background: var(--red-one);
   border-color: var(--red-one);
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Fancy Banner Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Fancy Banner Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-banner-six .inner-content {
   background: var(--deep-blue);
   padding: 55px 60px;
@@ -5345,7 +5345,7 @@ body .theme-btn-thirteen:hover {
 .fancy-banner-six .theme-btn-four {
   border-radius: 8px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .accordion-style-two .accordion-tag {
   font-family: "gorditamedium";
   font-size: 15px;
@@ -5400,27 +5400,27 @@ body .theme-btn-thirteen:hover {
 .inside-hero-five .illustration {
   animation: jumpTwo 5s infinite linear;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Seven ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-feature-section-seven {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Seven ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-feature-section-seven {
   padding: 120px 0 150px;
   position: relative;
   z-index: 5;
   background: var(--deep-cyan);
 }
-.vcamp-feature-section-seven.style-two {
+.CleverStudio-feature-section-seven.style-two {
   background: var(--light-blue);
 }
-.vcamp-feature-section-seven .shape-one {
+.CleverStudio-feature-section-seven .shape-one {
   top: -50px;
   left: 10%;
   animation: jumpThree 5s infinite linear;
 }
-.vcamp-feature-section-seven .shape-two {
+.CleverStudio-feature-section-seven .shape-two {
   bottom: -60px;
   right: 10%;
   animation: jumpTwo 5s infinite linear;
 }
-.vcamp-feature-section-seven .shape-three {
+.CleverStudio-feature-section-seven .shape-three {
   top: -100px;
   left: 0;
   animation: fade-in 1.1s infinite linear;
@@ -5471,7 +5471,7 @@ body .theme-btn-thirteen:hover {
 .dark-bg .card-style-seven p span {
   color: #fff;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Fancy Banner Seven ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Fancy Banner Seven ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-banner-seven .inner-content {
   padding: 75px 60px;
   background: var(--light-blue);
@@ -5498,7 +5498,7 @@ body .theme-btn-thirteen:hover {
   border-radius: 8px;
   padding: 0 35px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Eight ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Eight ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .card-style-eight {
   padding: 65px 45px 50px;
   border: 1px solid #e9e9e9;
@@ -6861,11 +6861,11 @@ body .theme-btn-thirteen:hover {
   z-index: 1;
   animation: jumpTwo 5s infinite linear;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Nine ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-feature-section-nine .row {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Nine ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-feature-section-nine .row {
   margin: 0 30px;
 }
-.vcamp-feature-section-nine [class*="col-"] {
+.CleverStudio-feature-section-nine [class*="col-"] {
   padding: 0 30px;
 }
 .card-style-nine {
@@ -6884,25 +6884,25 @@ body .theme-btn-thirteen:hover {
   letter-spacing: 0px;
   padding-top: 45px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Seven ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-seven .text-wrapper p {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Seven ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-seven .text-wrapper p {
   margin-bottom: 30px;
   padding-top: 12px;
   color: #454545;
 }
-.vcamp-text-block-seven .text-wrapper .name {
+.CleverStudio-text-block-seven .text-wrapper .name {
   font-family: "gorditamedium";
   font-size: 18px;
   padding-left: 32px;
   position: relative;
   margin-top: 60px;
 }
-.vcamp-text-block-seven .text-wrapper .name span {
+.CleverStudio-text-block-seven .text-wrapper .name span {
   font-size: 16px;
   font-family: "gorditaregular";
   color: #b9b9b9;
 }
-.vcamp-text-block-seven .text-wrapper .name:before {
+.CleverStudio-text-block-seven .text-wrapper .name:before {
   content: "";
   position: absolute;
   width: 19px;
@@ -6911,66 +6911,66 @@ body .theme-btn-thirteen:hover {
   left: 0;
   top: 10px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Eight ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-eight {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Eight ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-eight {
   padding: 135px 0 120px;
   position: relative;
   z-index: 1;
 }
-.vcamp-text-block-eight .text-wrapper h6 {
+.CleverStudio-text-block-eight .text-wrapper h6 {
   font-size: 17px;
   color: #ffffff;
   text-transform: uppercase;
   letter-spacing: 3.8px;
   padding-bottom: 20px;
 }
-.vcamp-text-block-eight .text-wrapper h2 {
+.CleverStudio-text-block-eight .text-wrapper h2 {
   font-family: "gorditablack";
   font-size: 82px;
   line-height: 1.19em;
   letter-spacing: -1px;
   color: #fff;
 }
-.vcamp-text-block-eight .illustration {
+.CleverStudio-text-block-eight .illustration {
   left: 11vw;
   max-width: 35%;
   top: 50%;
   transform: translateY(-50%);
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Nine ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-nine {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Nine ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-nine {
   position: relative;
   z-index: 1;
 }
-.vcamp-text-block-nine .text-wrapper h2 {
+.CleverStudio-text-block-nine .text-wrapper h2 {
   font-family: "gorditablack";
   font-size: 82px;
   line-height: 1.13em;
   letter-spacing: -1px;
 }
-.vcamp-text-block-nine .text-wrapper p {
+.CleverStudio-text-block-nine .text-wrapper p {
   padding: 45px 0 40px;
 }
-.vcamp-text-block-nine .illustration {
+.CleverStudio-text-block-nine .illustration {
   right: 0;
   max-width: 42%;
   bottom: 0;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Ten ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-ten {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Ten ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-ten {
   padding: 240px 0;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
-.vcamp-text-block-ten .city-list {
+.CleverStudio-text-block-ten .city-list {
   position: absolute;
   top: -65px;
   bottom: -65px;
   left: -10px;
   animation: moveUp 30s alternate infinite;
 }
-.vcamp-text-block-ten .city-list li {
+.CleverStudio-text-block-ten .city-list li {
   font-family: "gorditabold";
   font-size: 100px;
   line-height: 1.3em;
@@ -7126,24 +7126,24 @@ body .theme-btn-thirteen:hover {
 .hero-banner-eight .img-wrapper {
   margin-bottom: 6%;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Eleven ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-eleven .meta-info-text {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Eleven ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-eleven .meta-info-text {
   font-size: 36px;
   line-height: 1.55em;
   letter-spacing: -1px;
   margin-bottom: 0;
 }
-.vcamp-text-block-eleven .meta-info-text span {
+.CleverStudio-text-block-eleven .meta-info-text span {
   display: inline-block;
   color: var(--red-one);
   text-decoration: underline;
 }
-.vcamp-text-block-eleven .main-content {
+.CleverStudio-text-block-eleven .main-content {
   position: relative;
   z-index: 1;
   margin: 190px 0 90px;
 }
-.vcamp-text-block-eleven .main-content .left-img-meta {
+.CleverStudio-text-block-eleven .main-content .left-img-meta {
   position: absolute;
   width: 45%;
   height: 140%;
@@ -7151,18 +7151,18 @@ body .theme-btn-thirteen:hover {
   top: 50%;
   transform: translateY(-50%);
 }
-.vcamp-text-block-eleven .main-content .left-img-meta img {
+.CleverStudio-text-block-eleven .main-content .left-img-meta img {
   max-height: 100%;
   min-height: 100%;
   object-fit: cover;
   object-position: top center;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Twelve ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-text-block-twelve {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Twelve ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-text-block-twelve {
   position: relative;
   z-index: 1;
 }
-.vcamp-text-block-twelve .text-wrapper .video-icon {
+.CleverStudio-text-block-twelve .text-wrapper .video-icon {
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -7171,8 +7171,8 @@ body .theme-btn-thirteen:hover {
   position: relative;
   animation: ripple 3s linear infinite;
 }
-.vcamp-text-block-twelve .text-wrapper .video-icon::before,
-.vcamp-text-block-twelve .text-wrapper .video-icon::after {
+.CleverStudio-text-block-twelve .text-wrapper .video-icon::before,
+.CleverStudio-text-block-twelve .text-wrapper .video-icon::after {
   content: "";
   position: absolute;
   top: 0;
@@ -7183,34 +7183,34 @@ body .theme-btn-thirteen:hover {
   animation: inherit;
   animation-delay: 1s;
 }
-.vcamp-text-block-twelve .text-wrapper .video-icon::after {
+.CleverStudio-text-block-twelve .text-wrapper .video-icon::after {
   animation-delay: 3s;
 }
-.vcamp-text-block-twelve .text-wrapper .meta-info-text {
+.CleverStudio-text-block-twelve .text-wrapper .meta-info-text {
   font-size: 20px;
   line-height: 1.75em;
   margin-bottom: 40px;
 }
-.vcamp-text-block-twelve .text-wrapper ul li {
+.CleverStudio-text-block-twelve .text-wrapper ul li {
   line-height: 33px;
   color: #474747;
   position: relative;
   margin-bottom: 25px;
   padding-left: 35px;
 }
-.vcamp-text-block-twelve .text-wrapper ul li:before {
+.CleverStudio-text-block-twelve .text-wrapper ul li:before {
   content: url(../images/icon/icon_75.svg);
   position: absolute;
   left: 0;
   top: 1px;
 }
-.vcamp-text-block-twelve .text-wrapper ul li span {
+.CleverStudio-text-block-twelve .text-wrapper ul li span {
   font-family: "gorditamedium";
   color: #000;
   display: inline-block;
   position: relative;
 }
-.vcamp-text-block-twelve .text-wrapper ul li span:before {
+.CleverStudio-text-block-twelve .text-wrapper ul li span:before {
   content: "";
   position: absolute;
   left: 0;
@@ -7219,7 +7219,7 @@ body .theme-btn-thirteen:hover {
   width: 100%;
   background: var(--red-one);
 }
-.vcamp-text-block-twelve .right-img-meta {
+.CleverStudio-text-block-twelve .right-img-meta {
   position: absolute;
   width: 47%;
   height: 100%;
@@ -7227,24 +7227,24 @@ body .theme-btn-thirteen:hover {
   top: 50%;
   transform: translateY(-50%);
 }
-.vcamp-text-block-twelve .right-img-meta .main-img {
+.CleverStudio-text-block-twelve .right-img-meta .main-img {
   max-height: 100%;
   min-height: 100%;
   object-fit: cover;
   object-position: top center;
 }
 /*--- Dark BG ----*/
-.vcamp-text-block-twelve.dark-bg,
-.vcamp-text-block-twelve.dark-bg .text-wrapper ul li {
+.CleverStudio-text-block-twelve.dark-bg,
+.CleverStudio-text-block-twelve.dark-bg .text-wrapper ul li {
   color: rgba(255, 255, 255, 0.7);
 }
-.vcamp-text-block-twelve.dark-bg .text-wrapper ul li span {
+.CleverStudio-text-block-twelve.dark-bg .text-wrapper ul li span {
   color: #fff;
 }
-.vcamp-text-block-twelve.dark-bg .text-wrapper ul li:before {
+.CleverStudio-text-block-twelve.dark-bg .text-wrapper ul li:before {
   content: url(../images/icon/icon_97.svg);
 }
-.vcamp-text-block-twelve .right-img-meta .video-icon {
+.CleverStudio-text-block-twelve .right-img-meta .video-icon {
   width: 65px;
   height: 65px;
   border-radius: 50%;
@@ -7256,8 +7256,8 @@ body .theme-btn-thirteen:hover {
   transform: translate(-50%, -50%);
   animation: ripple 3s linear infinite;
 }
-.vcamp-text-block-twelve .right-img-meta .video-icon::before,
-.vcamp-text-block-twelve .right-img-meta .video-icon::after {
+.CleverStudio-text-block-twelve .right-img-meta .video-icon::before,
+.CleverStudio-text-block-twelve .right-img-meta .video-icon::after {
   content: "";
   position: absolute;
   top: 0;
@@ -7268,7 +7268,7 @@ body .theme-btn-thirteen:hover {
   animation: inherit;
   animation-delay: 1s;
 }
-.vcamp-text-block-twelve .right-img-meta .video-icon::after {
+.CleverStudio-text-block-twelve .right-img-meta .video-icon::after {
   animation-delay: 3s;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Theme Hero Banner Six ^^^^^^^^^^^^^^^^^^^^^^^^*/
@@ -9373,7 +9373,7 @@ body .theme-btn-thirteen:hover {
 .form-style-four form .theme-btn-one:hover {
   color: #fff;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Eleven ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Eleven ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .card-style-eleven .icon {
   width: 55px;
   height: 55px;
@@ -9972,7 +9972,7 @@ body .theme-btn-thirteen:hover {
   line-height: 33px;
   margin-bottom: 28px;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Thirteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Thirteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .ui-list-item-one li {
   font-size: 20px;
   color: #000;
@@ -9986,11 +9986,11 @@ body .theme-btn-thirteen:hover {
   left: 0;
   top: -1px;
 }
-.vcamp-text-block-thirteen .img-media {
+.CleverStudio-text-block-thirteen .img-media {
   border-radius: 30px;
   overflow: hidden;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Fourteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Fourteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .ui-list-item-two li {
   font-size: 18px;
   color: #000;
@@ -10004,10 +10004,10 @@ body .theme-btn-thirteen:hover {
   left: 0;
   top: -1px;
 }
-.vcamp-text-block-fourteen .img-wrapper img {
+.CleverStudio-text-block-fourteen .img-wrapper img {
   transform: rotate(4.3deg);
 }
-.vcamp-text-block-fourteen .img-wrapper:before {
+.CleverStudio-text-block-fourteen .img-wrapper:before {
   content: "";
   position: absolute;
   width: 69%;
@@ -10018,12 +10018,12 @@ body .theme-btn-thirteen:hover {
   background: var(--red-one);
   transform: rotate(-6.16deg);
 }
-.vcamp-text-block-fourteen .img-wrapper {
+.CleverStudio-text-block-fourteen .img-wrapper {
   margin-bottom: 6%;
   padding-left: 19%;
   padding-right: 10%;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Text Block Fifteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Text Block Fifteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .ui-list-item-three li {
   font-size: 20px;
   color: #000;
@@ -10088,7 +10088,7 @@ body .theme-btn-thirteen:hover {
 .dark-bg [class*="col-"]:last-child .counter-block-five {
   border: none;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Fancy Banner Eight ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Fancy Banner Eight ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .fancy-banner-eight form {
   max-width: 630px;
   height: 80px;
@@ -10115,53 +10115,53 @@ body .theme-btn-thirteen:hover {
   border-radius: 7px;
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Footer Three ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-footer-three {
+.CleverStudio-footer-three {
   padding: 70px 0;
 }
-.vcamp-footer-three .footer-nav a {
+.CleverStudio-footer-three .footer-nav a {
   color: #fff;
   font-size: 18px;
   margin: 3px 1.6vw;
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-three .social-icon a {
+.CleverStudio-footer-three .social-icon a {
   font-size: 18px;
   margin-left: 20px;
   color: #fff;
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-three .footer-nav a:hover,
-.vcamp-footer-three .social-icon a:hover {
+.CleverStudio-footer-three .footer-nav a:hover,
+.CleverStudio-footer-three .social-icon a:hover {
   color: var(--red-one);
 }
 /*^^^^^^^^^^^^^^^^^^^^^ Footer Four ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-footer-four .inner-content {
+.CleverStudio-footer-four .inner-content {
   padding: 60px 0;
   position: relative;
 }
-.vcamp-footer-four .footer-nav {
+.CleverStudio-footer-four .footer-nav {
   margin: 0 -20px;
 }
-.vcamp-footer-four .footer-nav li > a {
+.CleverStudio-footer-four .footer-nav li > a {
   color: #000;
   font-size: 18px;
   margin: 3px 20px;
   transition: all 0.3s ease-in-out;
 }
-.vcamp-footer-four .footer-nav .logo {
+.CleverStudio-footer-four .footer-nav .logo {
   margin: auto;
 }
-.vcamp-footer-four .footer-nav li > a:hover {
+.CleverStudio-footer-four .footer-nav li > a:hover {
   color: var(--red-one);
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Twelve ^^^^^^^^^^^^^^^^^^^^^^^^*/
-.vcamp-feature-section-twelve {
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Twelve ^^^^^^^^^^^^^^^^^^^^^^^^*/
+.CleverStudio-feature-section-twelve {
   background: url(../images/media/img_90.jpg) no-repeat center;
   background-size: cover;
   position: relative;
   z-index: 1;
 }
-.vcamp-feature-section-twelve:before {
+.CleverStudio-feature-section-twelve:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -10172,19 +10172,19 @@ body .theme-btn-thirteen:hover {
   mix-blend-mode: multiply;
   background-color: #eb0000;
 }
-.vcamp-feature-section-twelve .card-style-one {
+.CleverStudio-feature-section-twelve .card-style-one {
   margin: 0;
   background: #fff;
   padding: 55px 20px 40px 40px;
   height: 100%;
 }
-.vcamp-feature-section-twelve .card-style-one .icon.style-two {
+.CleverStudio-feature-section-twelve .card-style-one .icon.style-two {
   border-radius: 50%;
 }
-.vcamp-feature-section-twelve .card-style-one p {
+.CleverStudio-feature-section-twelve .card-style-one p {
   padding-right: 0;
 }
-/*^^^^^^^^^^^^^^^^^^^^^ Vcamp Feature Section Thirteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
+/*^^^^^^^^^^^^^^^^^^^^^ CleverStudio Feature Section Thirteen ^^^^^^^^^^^^^^^^^^^^^^^^*/
 .card-style-twelve .num {
   font-family: "gorditalight";
   font-size: 60px;
