@@ -18,7 +18,7 @@ $RequirementsGraphicsAll=implode(",", $RequirementsGraphics);
 $RequirementsVFXAll=implode(",", $RequirementsVFX);
 $RequirementsDevelopmentAll=implode(",", $RequirementsDevelopment);
 
-$to = "akashpanchal7000@gmail.com";
+$to = "contact@cleverstudio.in, aditya@cleverstudio.in, akashpanchal7000@gmail.com";
 $subject = "Mail From website";
 $body ="Project Title = ". $ProjectTitle . "\r\n\n Client Brand Name =" . $ClientBrandName . "\r\n\n Email =" . $email . "\r\n\n Contact Number =" . $ContactNumber . "\r\n\n Type of Project =" . $TypeOfProject . "\r\n\n Size OF Company =" . $SizeOfCompany . "\r\n\n Project Brief Info =" . $BriefInfoText . "\r\n\n Brand Company Niece info =" . $BrandNieceInfo . "\r\n\n Product Type =" . $ProductType . "\r\n\n Minimum Budget for this project =" . $MinBudget . "\r\n\n Maximum Budget for this project =" . $MaxBudget . "\r\n\n Requirements - Graphics =" . $RequirementsGraphicsAll . "\r\n\n Requirements - VFX =" . $RequirementsVFXAll . "\r\n\n Requirements - Development =" . $RequirementsDevelopmentAll;
 
