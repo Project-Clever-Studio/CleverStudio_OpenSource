@@ -2,13 +2,12 @@
 $name = $_POST['name'];
 $email= $_POST['email'];
 $message= $_POST['message'];
-$to = "akashpanchal7000@gmail.com";
-$subject = "Mail From website";
-$txt ="Name = ". $name . "\r\n  Email =" . $email . "\r\n Message =" . $message;
-$headers = "From: no-reply@cleverstudio.in" . "\r\n" .
-"CC: aditya@superbattle.in";
+$to = "contact@cleverstudio.in, aditya@cleverstudio.in, akashpanchal7000@gmail.com";
+$subject = "Contact Mail From $email";
+$body ="Name = ". $name . "\r\n  Email =" . $email . "\r\n Message =" . $message;
+$headers = "From: Clever Studio <contact@cleverstudio.in>";
 if($email!=NULL){
-    mail($to,$subject,$txt,$headers);
+    mail($to,$subject,$body,$headers);
 }
-header("Location:thankyou.html");
+header("Location:../thankyou.html");
 ?>
