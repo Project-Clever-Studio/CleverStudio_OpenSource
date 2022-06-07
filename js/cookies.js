@@ -19,11 +19,11 @@ getCookie = (cName) => {
 
 document.querySelector("#cookies-btn").addEventListener("click", () => {
     document.querySelector("#cookies").style.display = "none";
-    setCookie("User-Location", "Location" , 30);
+    setCookie("User-Email", "Email" , 30);
 })
 
 cookieMessage = () => {
-    if(!getCookie("User-Location"))
+    if(!getCookie("User-Email"))
         document.querySelector("#cookies").style.display = "block";
 }
 
